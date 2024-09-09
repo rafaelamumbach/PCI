@@ -22,3 +22,5 @@ int main(){
 
     printf("Soma dos nros: %d", d1+d2+d3+d4+d5);
 }
+
+// fazer: 34 ao 44; rever exercício 34.
