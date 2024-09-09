@@ -7,10 +7,22 @@ Exemplo: Se o usuário informar o valor de 1325, o programa deverá mostrar na t
 int main(){
     int nro;
     int soma;
+    int d1, d2, d3, d4, d5, resto;
 
     printf("Informe um nro de ate 5 digitos: ");
     scanf("%d", &nro);
 
-    
+    d1 = nro / 10000;
+    resto = nro % 10000;
 
+    d2 = resto / 1000;
+    resto = resto % 1000;
+
+    d3 = resto / 100;
+    resto = resto % 100;
+
+    d4 = resto / 10;
+    d5 = resto % 10;
+
+    printf("Soma dos nros: %d", d1+d2+d3+d4+d5);
 }
