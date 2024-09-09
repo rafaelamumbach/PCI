@@ -1,0 +1,4 @@
+Aula 2 ( )
+    Lista de comandos sequenciais;
+    Exercícios: 3, 4, 6, 21, 28, 42;
+    Prioridade: 29 - 44.
