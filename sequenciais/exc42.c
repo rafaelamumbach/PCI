@@ -5,5 +5,12 @@ Exemplo: Se o usuário informar o valor de 1325, o programa deverá mostrar na t
 #include <stdio.h>
 
 int main(){
+    int nro;
+    int soma;
+
+    printf("Informe um nro de ate 5 digitos: ");
+    scanf("%d", &nro);
+
     
+
 }
