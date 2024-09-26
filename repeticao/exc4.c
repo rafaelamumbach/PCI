@@ -2,7 +2,8 @@
 
 int main(){
     int i;
-    for (i = 1; i <= 20; i++){
+
+    for (i = 1; i <= 200; i=i+2){
         printf("%d\n", i);
     }
 }
