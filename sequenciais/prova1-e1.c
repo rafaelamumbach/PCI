@@ -5,5 +5,5 @@ int main(){
     int codigo, resto, d4, d5;
     printf("Informe um nro de 10 digitos: ");
     scanf("%d", &codigo);
-
+    
 }
