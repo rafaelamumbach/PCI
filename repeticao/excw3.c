@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int numero, i, menor=100, cont=0;
+    int numero, i;
+    int menor = 100, cont = 0;
 
     for (i = 0; i < 20; i++){
         printf("Informe um nro (%d)/20: ", i+1);
