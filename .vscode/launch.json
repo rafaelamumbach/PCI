@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Rafaela/Documents/PCI/repeticao",
-      "program": "c:/Users/Rafaela/Documents/PCI/repeticao/build/Debug/outDebug",
+      "cwd": "c:/Users/Rafaela/Documents/PCI/repeticao/prova",
+      "program": "c:/Users/Rafaela/Documents/PCI/repeticao/prova/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
