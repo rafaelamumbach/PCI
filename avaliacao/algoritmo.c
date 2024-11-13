@@ -13,7 +13,7 @@ int main(){
     printf("Nota 3: ");
     scanf("%f", &nota3);
 
-    media = (peso1 + peso2 + peso3) / ((peso1 / nota1) + (peso2 / nota2) + (peso3 / nota3));
+    media = 6 / ((peso1 / nota1) + (peso2 / nota2) + (peso3 / nota3));
     
     printf("Media final: %.2f\n", media);
 
