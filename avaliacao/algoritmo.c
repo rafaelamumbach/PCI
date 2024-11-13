@@ -1,8 +1,9 @@
 #include <stdio.h>
-/*Calculo de media*/
 
 int main(){
     float nota1, nota2, nota3, media;
+    int peso1 = 1, peso2 = 2, peso3 = 3;
+    
     printf("Nota 1: ");
     scanf("%f", &nota1);
 
@@ -12,7 +13,8 @@ int main(){
     printf("Nota 3: ");
     scanf("%f", &nota3);
 
-    media = ((nota1 * 1) + (nota2 * 2) + (nota3 * 3)) / 6;
+    media = (peso1 + peso2 + peso3) / ((peso1 / nota1) + (peso2 / nota2) + (peso3 / nota3));
     
-    printf("Media final: %.2f", media);
+    printf("Media final: %.2f\n", media);
+
 }
